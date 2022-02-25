@@ -7,10 +7,19 @@ namespace LinkListProblems
         static void Main(string[] args)
         {
             LinkListOperation listOperation = new LinkListOperation();
-            listOperation.insert(56);
-            listOperation.insert(30);
-            listOperation.insert(70);
-            listOperation.display();
+            listOperation.Add(56);
+            listOperation.Add(30);
+            listOperation.Add(70);
+            listOperation.Display();
+
+            listOperation = new LinkListOperation();
+
+            listOperation.Add2(70);
+            listOperation.Add2(30);
+            listOperation.Add2(56);
+            listOperation.Display();
         }
     }
 }
+    
+
