@@ -6,7 +6,11 @@ namespace LinkListProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LinkListOperation listOperation = new LinkListOperation();
+            listOperation.insert(56);
+            listOperation.insert(30);
+            listOperation.insert(70);
+            listOperation.display();
         }
     }
 }
